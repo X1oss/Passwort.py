@@ -1,4 +1,4 @@
-BSD 2-Clause License
+X1 License
 
 Copyright (c) 2023, X1.DE
 All rights reserved.
