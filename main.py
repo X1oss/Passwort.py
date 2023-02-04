@@ -1,6 +1,9 @@
+import random
 import string
-from random import *
-characters = string.ascii_letters + string.punctuation + string.digits
-passwort ="".join(choice(characters )for x in range(randint(8, 16)))
-print (passwort)
-print (passwort ,file=open("output.txt", "a"))
+
+def generate_password():
+    chars = string.ascii_letters + string.digits + string.punctuation
+    password = "".join(random.choice(chars) for i in range(16))
+    return password
+
+print(generate_password())
